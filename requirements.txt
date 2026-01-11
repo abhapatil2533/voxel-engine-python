@@ -1,0 +1,6 @@
+pygame 
+moderngl 
+numba 
+PyGLM 
+numpy 
+opensimplex[numpy]==0.4.4
