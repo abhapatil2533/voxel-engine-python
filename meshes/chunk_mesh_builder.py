@@ -15,7 +15,8 @@ def add_data(vertex_data, index, *vertices):
     return index
     
 def build_chunk_mesh(chunk_voxels, format_size):
-    vertex_data = np.empty(CHUNK_VOL * 18 * format_size, dtype='uint8')
+    # vertex_data = np.empty(CHUNK_VOL * 18 * format_size, dtype='uint8')
+    vertex_data = np.empty(CHUNK_VOL * 18 * format_size, dtype='int32')
     index = 0
 
     for x in range(CHUNK_SIZE):

@@ -9,7 +9,8 @@ class ShaderProgram:
         self.player = app.player
 
         # shaders 
-        self.chunk= self.get_program(shader_name='quad')
+        # self.chunk= self.get_program(shader_name='quad')
+        self.chunk = self.get_program(shader_name='chunk')
         self.set_uniforms_on_init()
     
     def set_uniforms_on_init(self): 
